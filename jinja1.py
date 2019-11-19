@@ -8,4 +8,5 @@ print(t.render(something="World"))
 
 t = Template("Favorite numbers: {% for n in [1,2,3]%}{{n}} " " {% endfor %}")
 
-print(t.render())
+print(t.render()
+
